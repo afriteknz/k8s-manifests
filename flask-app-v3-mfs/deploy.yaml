@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: guess-app
-          image: guess
+          image: chamambom/guess:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
