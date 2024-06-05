@@ -59,7 +59,7 @@ kind: Service
 metadata:
   name: guess-svc
 spec:
-  type: NodePort
+  type: LoadBalancer  #NodePort
   selector:
     app: guess-app
   ports:
